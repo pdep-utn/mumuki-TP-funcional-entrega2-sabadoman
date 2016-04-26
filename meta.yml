@@ -1,0 +1,17 @@
+---
+name: TP Fun 2 - Sábados Mañana - Series de TV
+locale: es
+type: practice
+beta: false
+language: haskell
+id_format: '%05d'
+order:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 7
+- 6
+- 8
+- 9

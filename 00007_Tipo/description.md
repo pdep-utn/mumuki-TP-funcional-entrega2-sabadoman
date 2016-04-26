@@ -1,0 +1,1 @@
+Dar el tipo de la función seriesQueCumplen, definida anteriormente.

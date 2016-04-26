@@ -1,0 +1,14 @@
+---
+expectations:
+- binding: tieneMasDeNTemporadas
+  inspection: HasBinding
+  verb: 
+- binding: posterioresAlAnio
+  inspection: HasBinding
+  verb: 
+- binding: producidasPorLaCadena
+  inspection: HasBinding
+  verb: 
+- binding: trabajaronMasDeNActores
+  inspection: HasBinding
+  verb: 

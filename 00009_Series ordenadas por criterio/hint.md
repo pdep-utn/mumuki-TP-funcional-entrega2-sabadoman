@@ -1,0 +1,1 @@
+Pensá en una función auxiliar. Para los tests, nosotros definimos "menorSegun".

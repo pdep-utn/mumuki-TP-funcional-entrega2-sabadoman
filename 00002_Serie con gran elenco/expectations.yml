@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: serieConGranElenco
+  inspection: HasBinding
+- binding: serieConGranElenco
+  inspection: Not:HasDirectRecursion
+- binding: serieConGranElenco
+  inspection: HasComposition
