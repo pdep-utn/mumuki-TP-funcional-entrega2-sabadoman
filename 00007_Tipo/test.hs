@@ -1,2 +1,2 @@
-it "OK" $ do
-  True `shouldBe` True 
+it "seriesQueCumplen" $ do
+  seriesQueCumplen series [const True] `shouldBe` series
