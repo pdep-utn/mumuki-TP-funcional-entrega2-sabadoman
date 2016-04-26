@@ -40,7 +40,7 @@ describe "TP1" $ do
     it "quienesSonEstrellas [Actor \"Ken Leung\" [\"lost\",\"los soprano\"],Actor \"Joel Gretsch\" [\"4400\",\"V\",\"United States of Tara\"]]    devuelve la lista [\"Joel Gretsch\"]" $ do
       quienesSonEstrellas [Actor "Ken Leung" ["lost","los soprano"], Actor "Joel Gretsch" ["4400","V","United States of Tara"]] `shouldBe` ["Joel Gretsch"]
   describe "5. promedioDeTemporadas" $ do
-    it "promedioDeTemporadas series   devuelve 5" $ do
-      promedioDeTemporadas series `shouldBe` 5
+    it "promedioDeTemporadas series   devuelve 4" $ do
+      promedioDeTemporadas series `shouldBe` 4
     it "promedioDeTemporadas [Serie \"los soprano\" 6 1999 \"HBO\", Serie \"lost\" 6 2004 \"ABC\"]   devuelve 6" $ do
       promedioDeTemporadas [Serie "los soprano" 6 1999 "HBO", Serie "lost" 6 2004 "ABC"] `shouldBe` 6
