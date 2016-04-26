@@ -2,25 +2,17 @@
 expectations:
 - binding: datosDe
   inspection: HasBinding
-  verb: 
 - binding: participoDe
   inspection: HasBinding
-  verb: 
 - binding: listaDeActoresDe
   inspection: HasBinding
-  verb: 
 - binding: anioDeComienzoDe
   inspection: HasBinding
-  verb: 
 - binding: seriesOrdenadas
   inspection: HasBinding
-  verb: 
 - binding: quienesSonEstrellas
   inspection: HasBinding
-  verb: 
 - binding: promedioDeTemporadas
   inspection: HasBinding
-  verb: 
 - binding: anioDeComienzoDe
   inspection: HasBinding
-  verb: 

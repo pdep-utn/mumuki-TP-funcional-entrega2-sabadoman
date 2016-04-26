@@ -43,4 +43,4 @@ describe "TP1" $ do
     it "promedioDeTemporadas series   devuelve 5" $ do
       promedioDeTemporadas series `shouldBe` 5
     it "promedioDeTemporadas [Serie \"los soprano\" 6 1999 \"HBO\", Serie \"lost\" 6 2004 \"ABC\"]   devuelve 6" $ do
-      promedioDeTemporadas [Serie "los soprano" 6 1999 "HBO", Serie "lost" 6 2004 "ABC")] `shouldBe` 6
+      promedioDeTemporadas [Serie "los soprano" 6 1999 "HBO", Serie "lost" 6 2004 "ABC"] `shouldBe` 6
