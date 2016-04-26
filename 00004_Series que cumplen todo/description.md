@@ -10,4 +10,12 @@ Dada una lista de series y otra de criterios, indicar qué series de la primera 
 
 ```
 
+Indicar explícitamente el tipo de la función.
+
+```haskell
+
+seriesQueCumplen :: ...
+
+```
+
 DESAFÍO (fuera del TP): Resolver esta función sin escribir sus parámetros.

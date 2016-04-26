@@ -1,4 +1,6 @@
 ---
 expectations:
 - binding: seriesQueCumplen
+  inspection: HasBinding
+- binding: seriesQueCumplen
   inspection: HasTypeSignature
