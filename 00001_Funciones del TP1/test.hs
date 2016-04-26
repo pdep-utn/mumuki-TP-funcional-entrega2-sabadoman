@@ -30,8 +30,8 @@ describe "TP1" $ do
   describe "3.b. seriesOrdenadas" $ do
     it "seriesOrdenadas [\"dr house\", \"V\", \"lost\"]    es falso" $ do
       seriesOrdenadas ["dr house", "V", "lost"] `shouldBe` False
-    it "seriesOrdenadas [\"dr house\", \"lost\"]    es falso" $ do
-      seriesOrdenadas ["dr house", "lost"] `shouldBe` True
+    it "seriesOrdenadas [\"dr house\", \"V\"]    es verdadero" $ do
+      seriesOrdenadas ["dr house", "V"] `shouldBe` True
     it "seriesOrdenadas [\"game of thrones\", \"lost\", \"V\", \"4400\"]    es falso" $ do
       seriesOrdenadas ["game of thrones", "lost", "V", "4400"] `shouldBe` False
   describe "4. quienesSonEstrellas" $ do
