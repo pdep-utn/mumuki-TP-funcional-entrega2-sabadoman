@@ -44,3 +44,10 @@ trabajaronMasDeNActores n =
     filter (\s -> length (listaDeActoresDe $ serie s) > n)
 
 seriesQueCumplen = foldl (flip ($))
+
+seriesQueFueProtagonista = 
+    map serieRol . filter fueProtagonista . roles . actor 
+actor nombre = find ((==nombre).nombreActor) actores
+fueProtagonista (Protagonista _) = True
+fueProtagonista _ = False
+roles (Actor _ r) = r
