@@ -42,5 +42,3 @@ producidasPorLaCadena c =
 
 trabajaronMasDeNActores n =
     filter (\s -> length (listaDeActoresDe $ serie s) > n)
-
-seriesQueCumplen = foldl (flip ($))
