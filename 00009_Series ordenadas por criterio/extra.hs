@@ -45,4 +45,9 @@ trabajaronMasDeNActores n =
 
 seriesQueCumplen = foldl (flip ($))
 
-menorSegun' f x y = f x < f y
+seriesQueFueProtagonista = 
+    map serieRol . filter fueProtagonista . roles . actor 
+actor nombre = find ((==nombre).nombreActor) actores
+fueProtagonista (Protagonista _) = True
+fueProtagonista _ = False
+roles (Actor _ r) = r
