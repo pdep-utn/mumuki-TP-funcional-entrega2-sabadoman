@@ -3,10 +3,10 @@ Dada una lista de series y otra de criterios, indicar qué series de la primera 
 ```haskell
 
 > seriesQueCumplen series [trabajaronMasDeNActores 1, producidasPorLaCadena "HBO"]
-[("los soprano",6,1999,"HBO")]
+[Serie "los soprano" 6 1999 "HBO"]
 
 > seriesQueCumplen series [trabajaronMasDeNActores 1, producidasPorLaCadena "ABC", posterioresAlAnio 2000]
-[("lost",6,2004,"ABC")]
+[Serie "lost" 6 2004 "ABC"]
 
 ```
 
