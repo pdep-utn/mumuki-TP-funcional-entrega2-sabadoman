@@ -1,8 +1,9 @@
 ---
-name: TP Fun 2 - Sábados Mañana - Series de T2
+name: TP Fun 2 - Sábados Mañana - Series TV 2
 locale: es
 type: practice
 beta: false
+teacher_info: ''
 language: haskell
 id_format: '%05d'
 order:

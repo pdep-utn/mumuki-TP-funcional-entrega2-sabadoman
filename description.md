@@ -1,4 +1,4 @@
-l proseguir con nuestro trabajo sobre las series de TV (que hicimos en el TP 1), nos dimos cuenta que en realidad nos conviene modelar las series y los actores de la siguiente forma:
+Al proseguir con nuestro trabajo sobre las series de TV (que hicimos en el TP 1), nos dimos cuenta que en realidad nos conviene modelar las series y los actores de la siguiente forma:
 
 ```haskell
 
